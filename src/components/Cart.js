@@ -122,7 +122,6 @@ const Cart = () => {
                 <small>Total:</small>
                 <b>₹ {cartTotal.toLocaleString()}</b>
               </h3>
-                <button type="button" className="checkout_btn" disabled={cartQuantity === 0}>Checkout</button>
             </div>
           </div>
         </div>
